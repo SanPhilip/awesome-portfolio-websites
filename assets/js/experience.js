@@ -7,21 +7,21 @@ const exp = [
   {
     title: "JavaScript",
     cardImage: "assets/images/experience-page/javascript.png",
-    place: "Lenguage de programacin",
+    place: "Lenguage de programación",
     desp: "<li>Desarrollamos aplicaciones web interactivas y dinámicas utilizando JavaScript, enfocándonos en mejorar la experiencia del usuario a través de interfaces intuitivas.</li> <li>Implementamos frameworks modernos como React y Vue.js para construir aplicaciones responsivas que se adaptan a diversas plataformas y dispositivos.</li> <li>Nuestra experiencia en programación asíncrona y técnicas de optimización del rendimiento nos permite ofrecer soluciones rápidas y eficientes para nuestros clientes.</li>",
     frameworks: ["React", "Vue.js", "Node.js"]
   },
   {
     title: "Python",
     cardImage: "assets/images/experience-page/python.png",
-    place: "Lenguage de programacin",
+    place: "Lenguage de programación",
     desp: "<li>Utilizamos Python para desarrollar aplicaciones backend robustas y escalables, asegurando una integración eficiente con bases de datos y servicios externos.</li> <li>Implementamos metodologías ágiles que nos permiten adaptarnos rápidamente a los cambios de requisitos y mejorar continuamente nuestros procesos de desarrollo.</li> <li>Nuestra experiencia en análisis de datos y aprendizaje automático nos permite ofrecer soluciones innovadoras basadas en datos para ayudar a nuestros clientes a tomar decisiones informadas.</li>",
     frameworks: ["Django", "Flask", "Pandas"]
   },
   {
     title: "PHP",
     cardImage: "assets/images/experience-page/php.png",
-    place: "Lenguage de programacin",
+    place: "Lenguage de programación",
     desp: "<li>Desarrollamos aplicaciones web personalizadas utilizando PHP, enfocándonos en crear soluciones a medida que cumplen con las necesidades específicas de nuestros clientes.</li> <li>Colaboramos en proyectos de desarrollo de sistemas de gestión y e-commerce, garantizando una experiencia de usuario fluida y eficiente.</li> <li>Nuestra experiencia en la optimización de rendimiento y seguridad en aplicaciones PHP nos permite entregar productos confiables y seguros.</li>",
     frameworks: ["Laravel", "Symfony", "CodeIgniter"]
   },
@@ -46,8 +46,8 @@ const showCards2 = () => {
   let output = "";
   exp.forEach(
     ({ title, cardImage, place, desp, frameworks }) =>
-      (output += `        
-    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
+      (output += `
+    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400">
       <div class="card card1">
         <img src="${cardImage}" class="featured-image"/>
         <article class="card-body">
@@ -72,5 +72,3 @@ const showCards2 = () => {
 };
 
 document.addEventListener("DOMContentLoaded", showCards2);
-
-

@@ -61,6 +61,27 @@ html[data-theme="dark"] {
   --col-white: #fff;
 }
 
+/*
+---------------------------
+      MIO
+---------------------------
+*/
+
+.tarjeta {
+    text-align: center;
+}
+
+.tarjeta-nombre {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mi-img {
+    margin-bottom: 20px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
 
 /*
 ---------------------------
@@ -436,7 +457,7 @@ html[light-mode="light"] .nav-link:hover{
   color: 	rgb(106, 0, 187) !important;
 }
 html[light-mode="light"] .navbar-brand:hover{
-  color: #007bff !important;
+  color: #6a00bb !important;
 }
 
 @media (min-width: 992px) {

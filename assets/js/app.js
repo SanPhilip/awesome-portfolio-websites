@@ -10,8 +10,8 @@ document.body.appendChild(script);
 
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-<a class="navbar-brand" href="index.html">
-    DWD SOLUTIONS <img src="assets/images/logo.png" alt="DWD Solutions Logo" width="80">
+<a class="navbar-brand" href="index.html" style="color: #6a00bb">
+    DWD SOLUTIONS <img src="assets/images/logo2.png" alt="DWD Solutions Logo" width="80">
 </a>
 
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,6 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experiencia</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Proyectos</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Nosotros</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Educación</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>

@@ -10,7 +10,10 @@ document.body.appendChild(script);
 
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-<a class="navbar-brand" href="index.html">John Doe </a>
+<a class="navbar-brand" href="index.html">
+    DWD SOLUTIONS <img src="assets/images/logo.png" alt="DWD Solutions Logo" width="80">
+</a>
+
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
   <div id="js-hamburger" class="hamburger">
@@ -23,12 +26,11 @@ let header = $(`
 
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank">Blogs</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Inicio</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experiencia</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Proyectos</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Nosotros</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Educación</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
@@ -118,10 +120,10 @@ let footer = $(`
       <!--SVG code for quote-left icon-->
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.5em" height="1.5em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M7 21a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2L7 13a4 4 0 1 1 0 8zm10 0a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2l-2 10a4 4 0 1 1 0 8z" fill="#fff" fill-rule="evenodd"/></svg>
       </div>
-      <p class="tag" >Develop a passion for learning. If you do, you will never cease to grow.</p>
+      <p class="tag" >Transformando Experiencias Digitales.</p>
     </div>
 
-    
+
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center">
@@ -136,15 +138,15 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header">
-                <h6 class="display">Get in Touch</h6>
+                <h6 class="display">CONTACTANOS</h6>
               </div>
                 <form name="form1" action="https://formcarry.com/s/BywEPAJNb" method="POST" accept-charset="UTF-8" >
-                  <input id="name" type="text" name="name" placeholder="Your Name" required/>
-                  <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
-                  <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
-              
+                  <input id="name" type="text" name="name" placeholder="Nombre" required/>
+                  <input id="email" type="email" name="email" placeholder="Email" required/>
+                  <textarea id="textArea" name="message" placeholder="Escribe tu Mensaje" required></textarea>
+
                   <div id="main">
-                    <button id="lnch" type="button" value="Send" >Send</button>
+                    <button id="lnch" type="button" value="Send" >Enviar</button>
                     <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
                   </div>
                 </form>
@@ -155,7 +157,7 @@ let footer = $(`
     </div>
 
 
-    
+
 
     <div class="rounded-social-buttons tag">
     <a class="social-button twitter" href="#" target="_blank">
@@ -254,7 +256,7 @@ let footer = $(`
     </a>
 
 
-    
+
     </div>
     </div>
 </footer>
